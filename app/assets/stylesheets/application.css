@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.red {
+  color:indianred;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.red2:hover{
+  color: lightgrey;
+}
+
+.liked{
+  color: lightgrey;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.liked:hover{
+  color: red;
+}
+
+.yellow{
+  color: #E1A700;
+  font-weight: bold;
+}
+
+.pink{
+  color: pink;
+  font-weight: bold;
+  }
+
+.card{
+  height: 250px;
+}
+
+.show_content{
+  font-size: 20px;
+  color: #454545;
+}
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.alert ul{
+  list-style:none;
+}
+
+.pink2{
+  background-color: grey;
+  height: 450px;
+  background-image: url('wife.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.date{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.comment{
+  font-size: 12px;
+  font-style: italic;
+  color: indianred;
+}
